@@ -1,0 +1,29 @@
+div,a,p,input,table,h1,h2,h3,h4,h5,em,i,b,body,html,dl,dt,button,textarea,select {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html,body {
+    height: 100%;
+    color: #333333;
+    background-color: #fff;
+    min-width: 1226px; //版心宽度
+    font-size: 12px;
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+a {
+    text-decoration: none; //清除下划线
+    color: #333;
+}
+
+ul,li {
+    list-style: none;
+}
+input {
+    font: normal;
+}
+input:focus,a:focus {
+    outline: none;
+}
+
+
