@@ -28,7 +28,7 @@ Vue.config.productionTip = false; //生产环境的提示
 
 
 //引入全局过滤器
-import * as filters from 'filters';
+import * as filters from './filters';
 Object.keys(filters).forEach(key=>{
   Vue.filter(key,filters[key])
 })

@@ -18,7 +18,7 @@ module.exports = { //但凡改了配置信息，就要重启项目，
     lintOnSave: false, //关闭eslint检查
     publicPath:'/', //项目根路径 './'时项目可以被部署在任意路径，在history模式和使用 pages 选项构建多页面应用时，避免使用相对路径
     assetsDir:'', //放置静态资源的目录
-    productionSourceMap: false, //若为true，打包的js文件回同时生成
+    productionSourceMap: false, //若为true，打包的js文件回同时生成map.js文件，开发环境可以为true,生产环境为false
     chainWebpack: (config) => {
         config.plugins.delete('prefetch') //删除路由预加载，真正实现按需加载
     }
